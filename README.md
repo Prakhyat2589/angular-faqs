@@ -12,7 +12,7 @@ Faq Accordion List
 2. All the dependencies and modules are mentioned in package.json file
 3. Open `angular-accordion` folder in VScode editor or any editor of your choice
 4. Open Terminal
-5. Type `cd angular-accordion` command if your terminal is not pointed in laptop-shopping folder
+5. Type `cd angular-accordion` command if your terminal is not pointed in angular-accordion folder
 6. Run `npm install` command which will create 'node_modules' installing required packages to run the Front-end and Back-end concurrently
 7. Type `npm run dev` command and it will run back-end and front-end application concurrently
 8. Please wait for some time as above command will install node modules for both server and angular application concurrently
