@@ -1,0 +1,12 @@
+<dt (click)="onBtnClick()" class="{{ uncollapsed ? 'open' : 'close' }}">
+  <span>
+    <span class="questionId">Q{{ entry.id }}</span>
+    <span class="question">{{ entry.question }}</span>
+  </span>
+  <span class="questionImage">
+    <img src="../../../assets/images/plus-icon.svg" />
+  </span>
+</dt>
+<dd class="{{ uncollapsed ? 'uncollapsed' : 'uncollapsed collapsed' }}">
+  {{ entry.answer }}
+</dd>
